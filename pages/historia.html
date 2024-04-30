@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../src/output.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <title>Coffee Vibes</title>
+</head>
+<body class="bg-coffee-30">
+<nav class="bg-coffee-50">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <img src="../img/logo.png" class="h-12" alt="Flowbite Logo" />
+      </a>
+      <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
+      </button>
+      <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+        <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-coffee-50 dark:border-gray-700">
+          <li>
+            <a href="../src/index.html" class="text-black md:light:text-blue-500" aria-current="page">Inicio</a>
+          </li>
+          <li>
+            <a href="/pages/historia.html" class="block py-2 px-3 text-gray-900 rounded md:hover:bg-transparent md:border-0 md:p-0 dark:text-black md:dark:hover:bg-transparent">Historia</a>
+          </li>
+          <li>
+            <a href="/pages/variedades.html" class="block py-2 px-3 text-gray-900 rounded md:hover:bg-transparent md:border-0 md:p-0 dark:text-black md:dark:hover:bg-transparent">Variedades</a>
+          </li>
+          <li>
+            <a href="/pages/cafeterias.html" class="block py-2 px-3 text-gray-900 rounded md:hover:bg-transparent md:border-0 md:p-0 dark:text-black md:dark:hover:bg-transparent">Cafeterías</a>
+          </li>
+          <li>
+            <a href="/pages/preguntasf.html" class="block py-2 px-3 text-gray-900 rounded md:hover:bg-transparent md:border-0 md:p-0 dark:text-black md:dark:hover:bg-transparent">Preguntas frecuentes</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mx-auto p-4">
+    <h1 class="text-4xl font-extrabold pt-10">Un poco de la historia del café</h1>
+    <div class="flex flex-col lg:flex-row items-center justify-between mb-8">
+      <div class="lg:w-1/2 lg:order-1 mb-4 lg:mb-0">
+        <img src="../img/historia/hands-that-are-picking-coffee-beans-from-coffee-tree.jpg" alt="Descripción de la imagen" class="pr-5 pt-5 h-auto max-w-md lg:float-left">
+      </div>
+      <div class="lg:w-1/2 lg:order-2 lg:pl-8">
+        <h2 class="text-2xl font-bold mb-4">Leyenda del pastor</h2>
+        <p class="text-lg">Kaldi, un joven pastor, observó un comportamiento extraño en su rebaño, que brincaba y saltaba 
+          enérgicamente, tras ingerir los frutos rojos de un arbusto hasta entonces desconocido. El religioso probó a hervir 
+          las bayas y beber la infusión resultante, pero era demasiado amarga y la desechó. De nuevo robó a preparar una infusión 
+          con las bayas ya tostadas, descubriendo entonces lo que hoy conocemos como café.</p>
+      </div>
+    </div>
+
+    <div class="flex flex-col lg:flex-row items-center justify-between">
+      <div class="lg:w-1/2 lg:order-2 mb-4 lg:mb-0">
+        <img src="../img/historia/yellow-common-crossbill-bird-eating-red-rowan-berries-perched-tree.jpg" alt="Descripción de la imagen" class="pl-5 pt-5 h-auto max-w-md lg:float-right">
+      </div>
+      <div class="lg:w-1/2 lg:order-1 lg:pr-8">
+        <h2 class="text-2xl font-bold mb-4">Historia del café en Yemen</h2>
+        <p class="text-lg">La leyenda yemení más famosa sobre los orígenes del café le da una ligera vuelta de tuerca a la historia 
+          etíope. Sin embargo, se cree en general que los granos de café se exportaban originalmente de Etiopía a Yemen. Más tarde, 
+          los comerciantes yemeníes llevaron cafetos a su patria y empezaron a cultivarlos allí.</p>
+      </div>
+    </div> 
+    
+    <div class="flex flex-col lg:flex-row items-center justify-between mb-8">
+      <div class="lg:w-1/2 lg:order-1 mb-4 lg:mb-0">
+        <img src="../img/historia/akha-farmers.jpg" alt="Descripción de la imagen" class="pr-5 pt-5 h-auto max-w-md lg:float-left">
+      </div>
+      <div class="lg:w-1/2 lg:order-2 lg:pl-8">
+        <h2 class="text-2xl font-bold mb-4">Se extiende la noticia...</h2>
+        <p class="text-lg">Aunque se cree que el café se originó en Etiopía, también se dice que se abrió camino hacia el norte, a 
+          través del mar Rojo, hasta Yemen, en el siglo XV. Entonces empezó a cultivarse en el distrito yemení de Arabia, y en el 
+          siglo XVI ya era conocido en Persia, Egipto, Siria y Turquía. Era muy popular por sus cualidades para ayudar a aumentar 
+          el estado de alerta y vigilia, lo que permitía a la gente dedicar más tiempo a asuntos espirituales y a rezar.</p>
+      </div>
+    </div>
+
+    <div class="flex flex-col lg:flex-row items-center justify-between">
+      <div class="lg:w-1/2 lg:order-2 mb-4 lg:mb-0">
+        <img src="../img/historia/cafe constantinopla.jpg" alt="Descripción de la imagen" class="pl-5 pt-5 h-auto max-w-md lg:float-right">
+      </div>
+      <div class="lg:w-1/2 lg:order-1 lg:pr-8">
+        <h2 class="text-2xl font-bold mb-4">Primer cafetería en el mundo</h2>
+        <p class="text-lg">La primera cafetería del mundo abrió sus puertas en 1475 en Constantinopla, hoy Estambul. Fuera de casa, 
+          la gente acudía a las cafeterías no solo para tomar café, sino también para charlar, escuchar música, ver artistas, jugar 
+          al ajedrez, cotillear y ponerse al día de las noticias. Sin las tecnologías modernas que tenemos hoy, las cafeterías se 
+          convirtieron rápidamente en el epicentro del intercambio y acopio de información.</p>
+      </div>
+    </div> 
+
+    <div class="flex flex-col lg:flex-row items-center justify-between mb-8">
+      <div class="lg:w-1/2 lg:order-1 mb-4 lg:mb-0">
+        <img src="../img/historia/cafe-gcafec0dbe_640.jpg" alt="Descripción de la imagen" class="pr-5 pt-5 h-auto max-w-md lg:float-left">
+      </div>
+      <div class="lg:w-1/2 lg:order-2 lg:pl-8">
+        <h2 class="text-2xl font-bold mb-4">Llega el café a Europa</h2>
+        <p class="text-lg">La historia del café europeo comienza en Italia, donde se importó del Imperio Otomano. En concreto, 
+          los mercaderes venecianos contribuyeron a la gran popularidad del café en las regiones europeas y, en 1645, se abrió 
+          en Venecia la primera cafetería europea de la historia. La primera cafetería de Inglaterra se abrió en Oxford en 1651 
+          y rápidamente le siguieron muchas otras, sobre todo en Londres.</p>
+      </div>
+    </div>
+
+    <div class="flex flex-col lg:flex-row items-center justify-between">
+      <div class="lg:w-1/2 lg:order-2 mb-4 lg:mb-0">
+        <img src="../img/historia/205348297-creme-brulee-en-un-restaurante-con-vistas-a-parís-foto-de-alta-calidad.jpg" alt="Descripción de la imagen" class="pl-5 pt-5 h-auto max-w-md lg:float-right">
+      </div>
+      <div class="lg:w-1/2 lg:order-1 lg:pr-8">
+        <h2 class="text-2xl font-bold mb-4">El café en París</h2>
+        <p class="text-lg">El café fue introducido en París (Francia) en 1669 por Suleyman Aga, embajador en la corte del rey Luis 
+          XIV de Francia.En 1671, un armenio que respondía al nombre de Pascal, abrió un puesto de café en la feria de St. En los 30 
+          años siguientes, el café se convirtió en un elemento cultural básico en Austria, Alemania, España y el resto de Europa. 
+          Sin embargo, cultivar café en Europa era una ardua tarea, debido a sus climas naturalmente más fríos. Más tarde, los 
+          comerciantes europeos empezarían a cultivar café en otros lugares.</p>
+      </div>
+    </div> 
+
+    <div class="flex flex-col lg:flex-row items-center justify-between mb-8">
+      <div class="lg:w-1/2 lg:order-1 mb-4 lg:mb-0">
+        <img src="../img/historia/tea-1040653_1280.jpg" alt="Descripción de la imagen" class="pr-5 pt-5 h-auto max-w-md lg:float-left">
+      </div>
+      <div class="lg:w-1/2 lg:order-2 lg:pl-8">
+        <h2 class="text-2xl font-bold mb-4">La popularidad del café en Asía</h2>
+        <p class="text-lg">Con la ayuda de los colonizadores británicos, estos se convertirían en las semillas de la primera industria 
+          comercial del café del mundo, fuera de África y Arabia, que aún hoy produce café. El café fue introducido por primera vez 
+          en Indonesia a finales del siglo XVII por comerciantes holandeses, y durante el siglo siguiente llegaría a muchas de las 
+          islas del país, como Sulawesi, Sumatra, Java y Bali. Durante un breve periodo, varias islas indonesias figuraron entre los 
+          principales productores de café del mundo.</p>
+      </div>
+    </div>
+
+    <div class="flex flex-col lg:flex-row items-center justify-between">
+      <div class="lg:w-1/2 lg:order-2 mb-4 lg:mb-0">
+        <img src="../img/historia/historia-cafe-etiopia.jpg" alt="Descripción de la imagen" class="pl-5 pt-5 h-auto max-w-md lg:float-right">
+      </div>
+      <div class="lg:w-1/2 lg:order-1 lg:pr-8">
+        <h2 class="text-2xl font-bold mb-4">El café en el Nuevo Mundo</h2>
+        <p class="text-lg">Los países latinoamericanos también tienen unas condiciones ideales para el cultivo del café, ya que 
+          cuentan con un buen equilibrio de sol y lluvia, temperaturas altas y húmedas, y un suelo rico. A mediados del siglo XVIII, 
+          los países latinoamericanos se convirtieron en algunos de los principales productores de café, talando extensos bosques 
+          tropicales para preparar las plantaciones. En la actualidad, Brasil es el mayor productor de café del mundo.</p>
+      </div>
+    </div> 
+
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+</body>
+</html>

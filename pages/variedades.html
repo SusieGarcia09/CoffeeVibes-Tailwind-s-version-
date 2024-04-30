@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../src/output.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <title>Coffee Vibes</title>
+</head>
+<body class="bg-coffee-30">
+<nav class="bg-coffee-50">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <img src="../img/logo.png" class="h-12" alt="Flowbite Logo" />
+      </a>
+      <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
+      </button>
+      <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+        <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-coffee-50 dark:border-gray-700">
+          <li>
+            <a href="../src/index.html" class="text-black md:light:text-blue-500" aria-current="page">Inicio</a>
+          </li>
+          <li>
+            <a href="/pages/historia.html" class="block py-2 px-3 text-gray-900 rounded md:hover:bg-transparent md:border-0 md:p-0 dark:text-black md:dark:hover:bg-transparent">Historia</a>
+          </li>
+          <li>
+            <a href="/pages/variedades.html" class="block py-2 px-3 text-gray-900 rounded md:hover:bg-transparent md:border-0 md:p-0 dark:text-black md:dark:hover:bg-transparent">Variedades</a>
+          </li>
+          <li>
+            <a href="/pages/cafeterias.html" class="block py-2 px-3 text-gray-900 rounded md:hover:bg-transparent md:border-0 md:p-0 dark:text-black md:dark:hover:bg-transparent">Cafeterías</a>
+          </li>
+          <li>
+            <a href="/pages/preguntasf.html" class="block py-2 px-3 text-gray-900 rounded md:hover:bg-transparent md:border-0 md:p-0 dark:text-black md:dark:hover:bg-transparent">Preguntas frecuentes</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mx-auto p-4">
+    <h1 class="text-4xl font-extrabold pt-10">Variedades de café en México</h1>
+
+<div id="controls-carousel" class="relative w-full pt-10" data-carousel="static">
+    <!-- Carousel wrapper -->
+    <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+         <!-- Item 1 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="../img/variedades/aerial-view-fresh-coffee-cup.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <!-- Item 2 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+            <img src="../img/variedades/breakfast-with-other-decorative-items-father-s-day.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <!-- Item 3 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="../img/variedades/cup-coffee-wooden-tray.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+    </div>
+    <!-- Slider controls -->
+    <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+            </svg>
+            <span class="sr-only">Previous</span>
+        </span>
+    </button>
+    <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+            </svg>
+            <span class="sr-only">Next</span>
+        </span>
+    </button>
+</div>
+
+
+<h2 class="mb-2 text-2xl font-semibold tracking-tight text-lg pt-10">Algunos datos..</h2>
+<div class="grid grid-cols-2 gap-4 px-2 w-full pt-5">
+    <div class="flex flex-col items-start justify-center rounded-2xl p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Café Arábica</h5>
+        <p class="font-normal text-gray-700 dark:text-gray-400">El café arábica es la variedad más comúnmente cultivada en México. Es producido en varios estados como Chiapas, Veracruz, Oaxaca, Puebla, Nayarit, entre otros. Tiene un sabor y aroma delicados con toques de cítricos, chocolate y nuez.</p>
+    </div>
+
+    <div class="flex flex-col justify-center rounded-2xl p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Café Altura</h5>
+        <p class="font-normal text-gray-700 dark:text-gray-400">Lo que distingue a este grano es que se cultiva a grandes altitudes y como resultado se obtienen sabores complejos. Estos se cosechan en regiones montañosas de Chiapas y Veracruz.</p>
+    </div>
+    </div>
+
+    <div class="grid grid-cols-2 gap-4 px-2 w-full pt-10">
+        <div class="flex flex-col items-start justify-center rounded-2xl p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Chiapas</h5>
+            <p class="font-normal text-gray-700 dark:text-gray-400">Este estado es reconocido por la alta calidad de la producción de la variedad arábica.</p>
+        </div>
+    
+        <div class="flex flex-col justify-center rounded-2xl p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Oaxaca</h5>
+            <p class="font-normal text-gray-700 dark:text-gray-400">El café oaxaqueño es reconocido por la complejidad de su sabor, ya que puede contar con notas de especias, nuez y cítricos.</p>
+        </div>
+        </div>
+
+    <div class="grid grid-cols-2 gap-4 px-2 w-full pt-10">
+            <div class="flex flex-col items-start justify-center rounded-2xl p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Veracruz</h5>
+                <p class="font-normal text-gray-700 dark:text-gray-400">El café veracruzano puede tener notas de chocolate y nuez, también es reconocido nacionalmente.</p>
+            </div>
+        
+            <div class="flex flex-col justify-center rounded-2xl p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Puebla</h5>
+                <p class="font-normal text-gray-700 dark:text-gray-400">En este estado se cultiva la variedad arábica. Los cafés poblanos tienen un sabor suave y agradable, con matices de frutas y nueces.</p>
+            </div>
+    </div>
+
+    <div class="grid grid-cols-2 gap-4 px-2 w-full pt-10">
+        <div class="flex flex-col items-start justify-center rounded-2xl p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Nayarit</h5>
+            <p class="font-normal text-gray-700 dark:text-gray-400">El café nayarita puede tener un sabor suave con notas de frutas y cacao.</p>
+        </div>
+    
+        <div class="flex flex-col justify-center rounded-2xl p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Pluma Hidalgo (Oaxaca)</h5>
+            <p class="font-normal text-gray-700 dark:text-gray-400">En la localidad oaxaqueña se cultiva café de alta calidad, tiene notas dulces y afrutadas, de caramelo y cítricos.</p>
+        </div>
+        </div>
+
+
+        <h1 class="text-4xl font-extrabold pt-10">Estados con más producción de café</h1>
+        <div class="grid grid-cols-2 gap-4 px-2 w-full pt-0">
+            <div class="flex flex-col items-start justify-center">
+                <div data-popover-target="popover-top" data-popover-placement="top" type="button" class="flex justify-between mb-1">
+                    <span class="text-base font-medium text-coffee-300">Chiapas</span>
+                    <div data-popover id="popover-top" role="tooltip" class="absolute z-10 invisible inline-block w-64 text-sm text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 dark:text-gray-400 dark:border-gray-600 dark:bg-gray-800">
+                      <div class="px-3 py-2">
+                          <p>La producción de Chiapas cuenta con 391,582 ton representando el 37.1%. (2023)</p>
+                      </div>
+                      <div data-popper-arrow></div>
+                    </div>
+                  </div>
+                  <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                    <div class="bg-coffee-50 h-2.5 rounded-full" style="width: 37%"></div>
+                  </div>
+
+                  <div data-popover-target="popover-top1" data-popover-placement="top" type="button" class="flex justify-between mb-1 pt-5">
+                    <span class="text-base font-medium text-coffee-300">Veracruz</span>
+                  </div>
+                  <div data-popover id="popover-top1" role="tooltip" class="absolute z-10 invisible inline-block w-64 text-sm text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 dark:text-gray-400 dark:border-gray-600 dark:bg-gray-800">
+                    <div class="px-3 py-2">
+                        <p>La producción de Veracruz cuenta con 253,448 ton, representando el 24%. (2023)</p>
+                    </div>
+                    <div data-popper-arrow></div>
+                  </div>
+                  <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                    <div class="bg-coffee-50 h-2.5 rounded-full" style="width: 24%"></div>
+                  </div>
+
+                  <div data-popover-target="popover-top3" data-popover-placement="top" type="button" class="flex justify-between mb-1 pt-5">
+                    <span class="text-base font-medium text-coffee-300">Puebla</span>
+                  </div>
+                  <div data-popover id="popover-top3" role="tooltip" class="absolute z-10 invisible inline-block w-64 text-sm text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 dark:text-gray-400 dark:border-gray-600 dark:bg-gray-800">
+                    <div class="px-3 py-2">
+                        <p>La producción de Puebla cuenta con 223,580 ton, representando el 21.2%. (2023)</p>
+                    </div>
+                    <div data-popper-arrow></div>
+                  </div>
+                  <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                    <div class="bg-coffee-50 h-2.5 rounded-full" style="width: 21%"></div>
+                  </div>
+
+                  <div data-popover-target="popover-top4" data-popover-placement="top" type="button" class="flex justify-between mb-1 pt-5">
+                    <span class="text-base font-medium text-coffee-300">Oaxaca</span>
+                  </div>
+                  <div data-popover id="popover-top4" role="tooltip" class="absolute z-10 invisible inline-block w-64 text-sm text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 dark:text-gray-400 dark:border-gray-600 dark:bg-gray-800">
+                    <div class="px-3 py-2">
+                        <p>La producción de Oaxaca cuenta con 85,982 ton, representando el 8.1%. (2023)</p>
+                    </div>
+                    <div data-popper-arrow></div>
+                  </div>
+                  <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                    <div class="bg-coffee-50 h-2.5 rounded-full" style="width: 8%"></div>
+                  </div>
+
+                  <div data-popover-target="popover-top5" data-popover-placement="top" type="button" class="flex justify-between mb-1 pt-5">
+                    <span class="text-base font-medium text-coffee-300">Guerrero</span>
+                  </div>
+                  <div data-popover id="popover-top5" role="tooltip" class="absolute z-10 invisible inline-block w-64 text-sm text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 dark:text-gray-400 dark:border-gray-600 dark:bg-gray-800">
+                    <div class="px-3 py-2">
+                        <p>La producción de Guerrero cuenta con 38,666 ton, representando el 3.7%. (2023)</p>
+                    </div>
+                    <div data-popper-arrow></div>
+                  </div>
+                  <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                    <div class="bg-coffee-50 h-2.5 rounded-full" style="width: 3%"></div>
+                  </div>
+
+                  <div data-popover-target="popover-top6" data-popover-placement="top" type="button" class="flex justify-between mb-1 pt-5">
+                    <span class="text-base font-medium text-coffee-300">Hidalgo</span>
+                  </div>
+                  <div data-popover id="popover-top6" role="tooltip" class="absolute z-10 invisible inline-block w-64 text-sm text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 dark:text-gray-400 dark:border-gray-600 dark:bg-gray-800">
+                    <div class="px-3 py-2">
+                        <p>La producción de Hidalgo cuenta con 410 ton, representando el 2.7%. (2023)</p>
+                    </div>
+                    <div data-popper-arrow></div>
+                  </div>
+                  <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                    <div class="bg-coffee-50 h-2.5 rounded-full" style="width: 2%"></div>
+                  </div>
+
+                  <div data-popover-target="popover-top7" data-popover-placement="top" type="button" class="flex justify-between mb-1 pt-5">
+                    <span class="text-base font-medium text-coffee-300">Nayarit</span>
+                  </div>
+                  <div data-popover id="popover-top7" role="tooltip" class="absolute z-10 invisible inline-block w-64 text-sm text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 dark:text-gray-400 dark:border-gray-600 dark:bg-gray-800">
+                    <div class="px-3 py-2">
+                        <p>La producción de Nayarit cuenta con 2,285 ton, representando el 1.3%. (2023)</p>
+                    </div>
+                    <div data-popper-arrow></div>
+                  </div>
+                  <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                    <div class="bg-coffee-50 h-2.5 rounded-full" style="width: 1%"></div>
+                  </div>
+
+                  <div data-popover-target="popover-top8" data-popover-placement="top" type="button" class="flex justify-between mb-1 pt-5">
+                    <span class="text-base font-medium text-coffee-300">San Luis Potosí</span>
+                  </div>
+                  <div data-popover id="popover-top8" role="tooltip" class="absolute z-10 invisible inline-block w-64 text-sm text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 dark:text-gray-400 dark:border-gray-600 dark:bg-gray-800">
+                    <div class="px-3 py-2">
+                        <p>La producción de San Luis Potosí cuenta con -458 ton, representando el 1.1%. (2023)</p>
+                    </div>
+                    <div data-popper-arrow></div>
+                  </div>
+                  <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                    <div class="bg-coffee-50 h-2.5 rounded-full" style="width: 1%"></div>
+                  </div>
+
+                  <div data-popover-target="popover-top9" data-popover-placement="top" type="button" class="flex justify-between mb-1 pt-5">
+                    <span class="text-base font-medium text-coffee-300">Otros estados</span>
+                  </div>
+                  <div data-popover id="popover-top9" role="tooltip" class="absolute z-10 invisible inline-block w-64 text-sm text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 dark:text-gray-400 dark:border-gray-600 dark:bg-gray-800">
+                    <div class="px-3 py-2">
+                        <p>El resto de estados representan un 0.903% de la producción de los cuales se encuentran: Jalisco, Colima, México, Tabasco, Querétaro y Morelos en 2023.</p>
+                    </div>
+                    <div data-popper-arrow></div>
+                  </div>
+                  <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                    <div class="bg-coffee-50 h-2.5 rounded-full" style="width: 1%"></div>
+                  </div>
+            </div>
+
+            <div class="flex flex-col justify-center rounded-2xl p-6">
+               <img src="../img/variedades/95d73f103b82e778c2cb7d1911e4f8fc.jpg" alt="">
+            </div>
+
+  
+  </div>
+
+  </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+</body>
+</html>
