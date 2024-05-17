@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1H7HBFHS2Q"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1H7HBFHS2Q');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./src/output.css" rel="stylesheet">
@@ -48,7 +58,11 @@
             <h1 class="max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl text-coffee-300">Conoce más de la cultura del café</h1>
             <p class="text-lg">Al mencionar la palabra café, lo primero que nos viene a la cabeza es una taza con un líquido oscuro en su interior y un aroma más que embaucador, mira algunos de sus beneficios a la salud.</p>
             <div class="pt-10 sm:flex sm:space-y-0 sm:space-x-4">
-              <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" type="button" class="hover:text-white border border-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-yellow-300 dark:text-yellow-300 dark:hover:text-white dark:hover:bg-yellow-400 dark:focus:ring-yellow-900">Beneficios del café</button>
+              <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" type="button" 
+              class="hover:text-white border border-yellow-400 hover:bg-yellow-500 focus:ring-4 
+              focus:outline-none focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 
+              mb-2 dark:border-yellow-300 dark:text-yellow-300 dark:hover:text-white 
+              dark:hover:bg-yellow-400 dark:focus:ring-yellow-900">Beneficios del café</button>
             </div>
         </div>
         <div class="lg:mt-0 lg:col-span-5 lg:flex">
@@ -60,7 +74,8 @@
   
   <!-- Dropdown menu -->
   <div id="dropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-80 dark:bg-gray-700">
-      <p class="p-4 text-sm text-gray-700 dark:text-gray-200">El consumo moderado de café aumenta la energía y la concentración, promueve la buena digestión y además previenen algunas enfermedades.</p>
+      <p class="p-4 text-sm text-gray-700 dark:text-gray-200">El consumo moderado de café aumenta la energía y la concentración, 
+      promueve la buena digestión y además previenen algunas enfermedades.</p>
   </div>
   
   
